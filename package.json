@@ -1,9 +1,10 @@
 {
-  
-    "scripts": {
-      "start": "vite"
-    },
-  
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.1",
