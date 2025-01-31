@@ -3,7 +3,9 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+     "deploy": "vercel --force"
+    
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
