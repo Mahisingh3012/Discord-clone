@@ -5,8 +5,7 @@
     "build": "npx vite build",
     "preview": "vite preview",
     "deploy": "vercel --force",
-    "prebuild": "chmod +x node_modules/.bin/vite",
-    
+    "prebuild": "chmod -R 777 node_modules/.bin"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
